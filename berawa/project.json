@@ -1,0 +1,68 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-posada-del-vallina-cordoba",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T15:20:00+01:00",
+ "updated_at": "2026-10-29T15:30:00+01:00",
+ "business": {
+  "name": "Hotel Hacienda Posada de Vallina",
+  "legal_name": "Hotel Hacienda Posada de Vallina",
+  "registry_ids": [
+   "CIF B14787352"
+  ],
+  "url": "https://www.hhposadadevallina.es/",
+  "domain": "hhposadadevallina.es",
+  "municipality": "Córdoba",
+  "province": "Córdoba",
+  "address": "Corregidor Luis de la Cerda, 83 · 14003 Córdoba",
+  "phones": [
+   "+34 957 49 87 50"
+  ],
+  "emails": [
+   "reservas@hhposadadevallina.es"
+  ],
+  "sector": "hotel en una posada histórica de la Judería de Córdoba, junto a la Mezquita"
+ },
+ "rating": {
+  "value": 4.1,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Hacienda+Posada+De+Vallina/@37.8782683,-4.7790682,17z/data=!4m9!3m8!1s0xd6d208330ddffdb:0x559b666e402d76a8!5m2!4m1!1i2!8m2!3d37.8782683!4d-4.7790682!16s%2Fg%2F1td2w7cd",
+  "date": "2026-10-29T11:07:54+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": {
+   "es": "https://www.hhposadadevallina.es/bookingstep1/",
+   "ca": "https://www.hhposadadevallina.es/bookingstep1/",
+   "en": "https://www.hhposadadevallina.es/en/bookingstep1/",
+   "fr": "https://www.hhposadadevallina.es/en/bookingstep1/"
+  },
+  "note": "Las reservas van al motor de reservas del propio hotel (hhposadadevallina.es/bookingstep1, pagina del propio dominio que carga el componente de tarifas de Mirai del hotel, data-mirai-id 33778312; version /en/ para ingles y frances); la demo no construye ningun motor."
+ },
+ "audit_original": {
+  "url": "https://www.hhposadadevallina.es/",
+  "date": "2026-10-29T14:55:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: hotel con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
