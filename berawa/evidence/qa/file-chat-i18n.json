@@ -1,0 +1,450 @@
+{
+ "url": "file:///tmp/clon-posada-del-vallina-cordoba/repo/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tiene?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene cinco tipos de habitación: Doble (cama de matrimonio), Twin (dos camas), Doble económica, Doble con vistas y Doble con supletoria (tre"
+    },
+    {
+     "q": "¿Hay habitación con vistas a la Mezquita?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí: la Doble con vistas, en la segunda planta, tiene balcón y cama de matrimonio, y desde ella se ve la Mezquita de Córdoba."
+    },
+    {
+     "q": "¿Tienen habitación para tres?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Sí, la Doble con supletoria tiene tres camas."
+    },
+    {
+     "q": "¿Dónde está?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Está en Corregidor Luis de la Cerda, 83, 14003 Córdoba, en la Judería: la Mezquita-Catedral está a 1 minuto a pie, el Puente Romano y la Tor"
+    },
+    {
+     "q": "¿A cuánto está la Mezquita?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Está en Corregidor Luis de la Cerda, 83, 14003 Córdoba, en la Judería: la Mezquita-Catedral está a 1 minuto a pie, el Puente Romano y la Tor"
+    },
+    {
+     "q": "¿Qué servicios tiene?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Recepción 24 horas, bar, zona de TV y salón de uso compartido, biblioteca, ascensor, aire acondicionado y calefacción, wifi gratuito, servic"
+    },
+    {
+     "q": "¿Está adaptado para silla de ruedas?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Sí, el hotel indica que está adaptado para personas con movilidad reducida y tiene ascensor."
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sí, la conexión wifi es gratuita."
+    },
+    {
+     "q": "¿Tiene bar?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sí, tiene bar con una selección de bebidas y aperitivos, por ejemplo una copa de vino local o un cóctel."
+    },
+    {
+     "q": "¿Qué incluye la habitación?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Las habitaciones tienen escritorio, televisión, aire acondicionado, calefacción, minibar de pago, caja fuerte gratis, wifi gratis y baño con"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), llamar al +34 957 49 87 50 o escribir a reservas@hhposadadevallina.es. Este asiste"
+    },
+    {
+     "q": "¿Quién es el titular?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Según su aviso legal, la denominación social es HOTEL HACIENDA POSADA DE VALLINA, CIF B14787352, con domicilio en Calle Corregidor Luis de l"
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 957 49 87 50 · reservas@hhposadadevallina.es."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), llamar al +34 957 49 87 50 o escribir a reservas@hhposadadevallina.es. Este asiste"
+    },
+    {
+     "q": "¿Tienen piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 957 49 87 50 · reservas@hhposadadevallina.es."
+    },
+    {
+     "q": "¿Admiten mascotas?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 957 49 87 50 · reservas@hhposadadevallina.es."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tiene?",
+    "¿Dónde está?",
+    "¿Qué servicios tiene?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "intro_k",
+    "send",
+    "svc2",
+    "svc4",
+    "svc5",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Quines habitacions té?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Té cinc tipus d'habitació: Doble (llit de matrimoni), Twin (dos llits), Doble econòmica, Doble amb vistes i Doble amb llit supletori (tres l"
+    },
+    {
+     "q": "Hi ha habitació amb vistes a la Mesquita?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí: la Doble amb vistes, a la segona planta, té balcó i llit de matrimoni, i des d'ella es veu la Mesquita de Còrdova."
+    },
+    {
+     "q": "Teniu habitació per a tres?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Sí, la Doble amb llit supletori té tres llits."
+    },
+    {
+     "q": "On és?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "És a Corregidor Luis de la Cerda, 83, 14003 Còrdova, a la Jueria: la Mesquita-Catedral és a 1 minut a peu, el Pont Romà i la Torre de la Cal"
+    },
+    {
+     "q": "A quina distància és la Mesquita?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "És a Corregidor Luis de la Cerda, 83, 14003 Còrdova, a la Jueria: la Mesquita-Catedral és a 1 minut a peu, el Pont Romà i la Torre de la Cal"
+    },
+    {
+     "q": "Quins serveis té?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Recepció 24 hores, bar, zona de TV i saló d'ús compartit, biblioteca, ascensor, aire condicionat i calefacció, wifi gratuït, servei d'habita"
+    },
+    {
+     "q": "Està adaptat per a cadira de rodes?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Sí, l'hotel indica que està adaptat per a persones amb mobilitat reduïda i té ascensor."
+    },
+    {
+     "q": "Hi ha wifi?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sí, la connexió wifi és gratuïta."
+    },
+    {
+     "q": "Té bar?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sí, té bar amb una selecció de begudes i aperitius, per exemple una copa de vi local o un còctel."
+    },
+    {
+     "q": "Què inclou l'habitació?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Les habitacions tenen escriptori, televisió, aire condicionat, calefacció, minibar de pagament, caixa forta gratis, wifi gratis i bany amb d"
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar al seu motor de reserves (botó Reservar), trucar al +34 957 49 87 50 o escriure a reservas@hhposadadevallina.es. Aquest assist"
+    },
+    {
+     "q": "Qui és el titular?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Segons el seu avís legal, la denominació social és HOTEL HACIENDA POSADA DE VALLINA, CIF B14787352, amb domicili al carrer Corregidor Luis d"
+    },
+    {
+     "q": "Quant costa una nit?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 957 49 87 50 · reservas@hhposadadevallina.es."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar al seu motor de reserves (botó Reservar), trucar al +34 957 49 87 50 o escriure a reservas@hhposadadevallina.es. Aquest assist"
+    },
+    {
+     "q": "Teniu piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 957 49 87 50 · reservas@hhposadadevallina.es."
+    },
+    {
+     "q": "Admeteu mascotes?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 957 49 87 50 · reservas@hhposadadevallina.es."
+    }
+   ],
+   "chips": [
+    "Quines habitacions té?",
+    "On és?",
+    "Quins serveis té?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "svc2"
+   ],
+   "chat": [
+    {
+     "q": "What rooms does it have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "There are five room types: Double (double bed), Twin (two beds), Economy double, Double with views and Double with extra bed (three beds). A"
+    },
+    {
+     "q": "Is there a room with a view of the Mezquita?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Yes: the Double with views, on the second floor, has a balcony and a double bed, and you can see the Mezquita of Córdoba from it."
+    },
+    {
+     "q": "Do you have a room for three?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Yes, the Double with extra bed has three beds."
+    },
+    {
+     "q": "Where is it?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "It is at Corregidor Luis de la Cerda, 83, 14003 Córdoba, in the Jewish Quarter: the Mosque-Cathedral is a 1-minute walk, the Roman Bridge an"
+    },
+    {
+     "q": "How far is the Mezquita?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "It is at Corregidor Luis de la Cerda, 83, 14003 Córdoba, in the Jewish Quarter: the Mosque-Cathedral is a 1-minute walk, the Roman Bridge an"
+    },
+    {
+     "q": "What services are there?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "24-hour reception, bar, TV area and shared lounge, library, lift, air conditioning and heating, free wifi, 24-hour room service and currency"
+    },
+    {
+     "q": "Is it wheelchair accessible?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Yes, the hotel states it is adapted for people with reduced mobility and has a lift."
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Yes, wifi is free."
+    },
+    {
+     "q": "Is there a bar?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Yes, there is a bar with a selection of drinks and snacks, such as a glass of local wine or a cocktail."
+    },
+    {
+     "q": "What does the room include?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Rooms have a desk, TV, air conditioning, heating, paid minibar, free safe, free wifi and a bathroom with shower and hairdryer."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on its booking engine (Book button), call +34 957 49 87 50 or email reservas@hhposadadevallina.es. This assistant does not conf"
+    },
+    {
+     "q": "Who is the owner?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "According to its legal notice, the company name is HOTEL HACIENDA POSADA DE VALLINA, CIF B14787352, registered at Calle Corregidor Luis de l"
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 957 49 87 50 · reservas@hhposadadevallina.es."
+    },
+    {
+     "q": "Confirm that there is a free room tomorrow",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on its booking engine (Book button), call +34 957 49 87 50 or email reservas@hhposadadevallina.es. This assistant does not conf"
+    },
+    {
+     "q": "Is there a pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 957 49 87 50 · reservas@hhposadadevallina.es."
+    },
+    {
+     "q": "Are pets allowed?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 957 49 87 50 · reservas@hhposadadevallina.es."
+    }
+   ],
+   "chips": [
+    "What rooms does it have?",
+    "Where is it?",
+    "What services are there?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "svc2"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres a-t-il ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il y a cinq types de chambre : Double (lit double), Twin (deux lits), Double économique, Double avec vue et Double avec lit d'appoint (trois"
+    },
+    {
+     "q": "Y a-t-il une chambre avec vue sur la Mezquita ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Oui : la Double avec vue, au deuxième étage, a un balcon et un lit double, et on y voit la Mezquita de Cordoue."
+    },
+    {
+     "q": "Avez-vous une chambre pour trois ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Oui, la Double avec lit d'appoint a trois lits."
+    },
+    {
+     "q": "Où est-il ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Il se trouve Corregidor Luis de la Cerda, 83, 14003 Cordoue, dans la Juderia : la Mosquée-Cathédrale est à 1 minute à pied, le Pont romain e"
+    },
+    {
+     "q": "À quelle distance est la Mezquita ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Il se trouve Corregidor Luis de la Cerda, 83, 14003 Cordoue, dans la Juderia : la Mosquée-Cathédrale est à 1 minute à pied, le Pont romain e"
+    },
+    {
+     "q": "Quels services propose-t-il ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Réception 24h/24, bar, coin TV et salon partagé, bibliothèque, ascenseur, climatisation et chauffage, wifi gratuit, service en chambre 24h/2"
+    },
+    {
+     "q": "Est-il accessible en fauteuil roulant ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Oui, l'hôtel indique qu'il est adapté aux personnes à mobilité réduite et dispose d'un ascenseur."
+    },
+    {
+     "q": "Y a-t-il le wifi ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Oui, le wifi est gratuit."
+    },
+    {
+     "q": "Y a-t-il un bar ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Oui, il y a un bar avec une sélection de boissons et d'apéritifs, par exemple un verre de vin local ou un cocktail."
+    },
+    {
+     "q": "Que comprend la chambre ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Les chambres ont un bureau, une télévision, la climatisation, le chauffage, un minibar payant, un coffre-fort gratuit, le wifi gratuit et un"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur son moteur de réservation (bouton Réserver), appeler le +34 957 49 87 50 ou écrire à reservas@hhposadadevallina.es."
+    },
+    {
+     "q": "Qui est le titulaire ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Selon ses mentions légales, la dénomination sociale est HOTEL HACIENDA POSADA DE VALLINA, CIF B14787352, domiciliée Calle Corregidor Luis de"
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 957 49 87 50 · reservas@hhposadadevallina.es."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre libre demain",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur son moteur de réservation (bouton Réserver), appeler le +34 957 49 87 50 ou écrire à reservas@hhposadadevallina.es."
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 957 49 87 50 · reservas@hhposadadevallina.es."
+    },
+    {
+     "q": "Les animaux sont-ils admis ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 957 49 87 50 · reservas@hhposadadevallina.es."
+    }
+   ],
+   "chips": [
+    "Quelles chambres a-t-il ?",
+    "Où est-il ?",
+    "Quels services propose-t-il ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
