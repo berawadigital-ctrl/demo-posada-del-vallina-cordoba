@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.hhposadadevallina.es/",
+ "read_at": "2026-10-29T15:20:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.hhposadadevallina.es/aviso-legal/",
+   "sha256": "4685be571387388986a64e7e03e971bac15986e20787a7b2bcdd1b2eecc028ce",
+   "chars": 4291
+  },
+  {
+   "url": "https://www.hhposadadevallina.es/habitaciones/",
+   "sha256": "73cf570d3b8ddfb8e7253117931eb97fc55e1d9ef02578f769a810a138e56b78",
+   "chars": 2585
+  },
+  {
+   "url": "https://www.hhposadadevallina.es/habitaciones/doble-19868/",
+   "sha256": "14aea0eaa0f73e79d6382125e74d396b3680eebab2e6dd2cee2095877292c037",
+   "chars": 1353
+  },
+  {
+   "url": "https://www.hhposadadevallina.es/habitaciones/doble-con-supletoria-19963/",
+   "sha256": "82556eb25198b535faa7301326401e65828229bb6f19915d733b892f06143c84",
+   "chars": 1390
+  },
+  {
+   "url": "https://www.hhposadadevallina.es/habitaciones/doble-con-vistas-19871/",
+   "sha256": "3f19f62a44ee22b7b37dd3f427b0fcc79965c252724298f78343aa49f39f6810",
+   "chars": 1448
+  },
+  {
+   "url": "https://www.hhposadadevallina.es/servicios/",
+   "sha256": "129a018107a3d248b9e18d0740f857ac352abf7d56e2ff697c9e5b60f32254e9",
+   "chars": 1810
+  },
+  {
+   "url": "https://www.hhposadadevallina.es/situacion/",
+   "sha256": "4fa78df1fbb587cdb6687c5ee58010f6b8e2c76c42926a08b60782bcde0302a1",
+   "chars": 2531
+  }
+ ],
+ "other_pages_read": [
+  "https://www.hhposadadevallina.es",
+  "https://www.hhposadadevallina.es/",
+  "https://www.hhposadadevallina.es/en/",
+  "https://www.hhposadadevallina.es/en/cookies-policy/",
+  "https://www.hhposadadevallina.es/en/legal-notice/",
+  "https://www.hhposadadevallina.es/en/location/",
+  "https://www.hhposadadevallina.es/en/offers/",
+  "https://www.hhposadadevallina.es/en/photos/",
+  "https://www.hhposadadevallina.es/en/rooms/",
+  "https://www.hhposadadevallina.es/en/rooms/double-room-19868/",
+  "https://www.hhposadadevallina.es/en/rooms/economic-double-19870/",
+  "https://www.hhposadadevallina.es/en/rooms/twin-room-19869/",
+  "https://www.hhposadadevallina.es/en/services/",
+  "https://www.hhposadadevallina.es/fotos/",
+  "https://www.hhposadadevallina.es/habitaciones/doble-economica-19870/",
+  "https://www.hhposadadevallina.es/habitaciones/twin-19869/",
+  "https://www.hhposadadevallina.es/ofertas/",
+  "https://www.hhposadadevallina.es/politica-cookies/"
+ ]
+}
